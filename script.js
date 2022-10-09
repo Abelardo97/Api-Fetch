@@ -27,9 +27,9 @@ function obtenerApi() {
             <thead>
                 <tr>
                     <th scope="col">Id</th>
-                    <th scope="col">Email</th>
                     <th scope="col">First name</th>
                     <th scope="col">Last name</th>
+                    <th scope="col">Email</th>
                     <th scope="col">Image</th>
                 </tr>
             </thead>`
@@ -39,9 +39,9 @@ function obtenerApi() {
             tbody += `
                 <tr>
                 <td>${users[i].id}</td>
-                <td>${users[i].email}</td>
                 <td>${users[i].first_name}</td>
                 <td>${users[i].last_name}</td>
+                <td>${users[i].email}</td>
                 <td><img src="${users[i].avatar}" class="rounded-circle mx-auto" style="width: 55px"></img></td>
             `
             document.getElementById("tablita"). innerHTML = tbody;
