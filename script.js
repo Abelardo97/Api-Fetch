@@ -42,7 +42,7 @@ function obtenerApi() {
                 <td>${users[i].email}</td>
                 <td>${users[i].first_name}</td>
                 <td>${users[i].last_name}</td>
-                <td><img src="${users[i].avatar}" class="rounded-circle mx-auto" style="width: 70px"></img></td>
+                <td><img src="${users[i].avatar}" class="rounded-circle mx-auto" style="width: 55px"></img></td>
             `
             document.getElementById("tablita"). innerHTML = tbody;
         
