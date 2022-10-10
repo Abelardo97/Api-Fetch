@@ -16,6 +16,10 @@ function obtenerApi() {
             guardarDatos(users.data)
             
         } )
+        .catch(error => {
+            console.log(error);
+        })    
+        
 }
     //Mostrar datos en la tabla
     const mostrarTabla = (users) => {
